@@ -1,0 +1,30 @@
+/* stylelint-disable scss/at-import-no-partial-leading-underscore */
+/*
+*   ___  ___ ___ ___   ___ _      ___   _____  ___   ___  _  __
+*  / __|/ __/ __/ __| | _ \ |    /_\ \ / / _ )/ _ \ / _ \| |/ /
+*  \__ \ (__\__ \__ \ |  _/ |__ / _ \ V /| _ \ (_) | (_) | ' <
+*  |___/\___|___/___/ |_| |____/_/ \_\_| |___/\___/ \___/|_|\_\   *
+*
+* # Scss Playbook 1.0.0
+* http://matthewelsom.com/blog/simple-scss-playbook.html
+*
+* Released under the CC0 1.0 Universal license
+* https://creativecommons.org/publicdomain/zero/1.0/
+*/
+
+@charset "UTF-8";
+
+// Vendor
+@import '01_vendor/__vendor-dir';
+
+// Abstracts
+@import '02_abstracts/__abstracts-dir';
+
+// Base Styles
+@import '03_base/__base-dir';
+
+// Components
+@import '04_components/__components-dir';
+
+// Layout
+@import '05_layouts/__layouts-dir';
